@@ -5,7 +5,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f0; /* Color de fondo opcional */
   overflow: hidden; /* Evita que la imagen se salga de la caja */
 }
 
