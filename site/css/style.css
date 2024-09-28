@@ -293,11 +293,22 @@ p [style*='max-width'] {
 }
 
 
-.rd-navbar-brand {
-  width: 1170px; /* Tamaño para pantallas grandes */
-  height: auto;
-	background: #00aced;
+
+
+.brand img {
+	max-width: 100%;  /* Permite que la imagen se ajuste al contenedor */
+	width: 300px;     /* Aumenta el tamaño según lo necesites */
+	height: auto;     /* Mantiene la proporción correcta de la imagen */
 }
+
+.rd-navbar-brand {
+  width: 1170px; /* Puedes reducir si es necesario */
+  height: auto;
+  background: #00aced;
+  display: flex;
+  justify-content: flex-start; /* Alinea a la izquierda */
+}
+
 /*
 *
 * Links
