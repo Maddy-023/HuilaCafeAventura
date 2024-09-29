@@ -324,9 +324,9 @@ p [style*='max-width'] {
 .logo {
 	max-width: 100%;
 	/* Permite que la imagen se ajuste al contenedor */
-	width: 950px;
+	width: 750px;
 	/* Aumenta el tamaño según lo necesites */
-	height: 880px;
+	height:680px;
 	/* Mantiene la proporción correcta de la imagen */
 	margin: 0;
 
