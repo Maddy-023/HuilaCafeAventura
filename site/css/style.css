@@ -292,9 +292,7 @@ p [style*='max-width'] {
 	display: block;
 }
 
-
-
-
+/*img del logo*/
 .logo {
 	max-width: 100%;  /* Permite que la imagen se ajuste al contenedor */
 	width: 950px;     /* Aumenta el tamaño según lo necesites */
@@ -302,7 +300,7 @@ p [style*='max-width'] {
 	margin: 0;
 	
 }
-
+/*img del logo*/
 .rd-navbar-aside {
   width: 1170px; /* Puedes reducir si es necesario */
   height: 300px;
@@ -17089,9 +17087,9 @@ html.rd-navbar-fixed-linked .page {
 	display: flex;
 	align-items: center;
 }
-
+/* color de barra de navegacion */
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-main-outer {
-	background: #162e44;
+	background: #1c4416;
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-nav-wrap {
@@ -17175,7 +17173,7 @@ html.rd-navbar-fixed-linked .page {
 	color: #ffffff;
 	z-index: 1;
 }
-
+/* borde superior del nav */
 .rd-navbar-corporate.rd-navbar-static .rd-nav-link::before {
 	position: absolute;
 	content: '';
@@ -17184,7 +17182,7 @@ html.rd-navbar-fixed-linked .page {
 	height: 0;
 	width: 100%;
 	background: rgba(255, 255, 255, 0.11);
-	border-top: 3px solid #01b3a7;
+	border-top: 3px solid #4cc900;
 	transform: translate3d(-100%, 0, 0);
 	transition: all 0.35s cubic-bezier(0.05, 0.29, 0.11, 1.54), height 0.3s ease;
 	visibility: hidden;
