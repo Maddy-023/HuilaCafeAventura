@@ -14947,12 +14947,12 @@ html.tablet .ui-to-top {
 	width: 100%;
 	margin-bottom: 8px;
 }
-
+/* para tamaño de caja de municipios */
 .rd-navbar-static .rd-navbar-megamenu {
 	display: flex;
 	left: 0;
 	width: calc(100% + 1px);
-	max-width: 1170px;
+	max-width: 400px;
 	padding: 40px 0;
 	background: #ffffff;
 }
@@ -17663,8 +17663,9 @@ html.rd-navbar-fixed-linked .page {
 	}
 }
 
+/* lado pa donde quiere que este */
 .rd-navbar-creative.rd-navbar-static .rd-navbar-megamenu {
-	left: 50%;
+	left: 65%;
 	transform: translate3d(-50%, 30px, 0);
 }
 
@@ -18155,9 +18156,9 @@ html.rd-navbar-fixed-linked .page {
 	margin-top: 0;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
-
+/* lado pa donde quiere que este */
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-megamenu {
-	left: 50%;
+	left: 65%;
 	transform: translate3d(-50%, 30px, 0);
 }
 
